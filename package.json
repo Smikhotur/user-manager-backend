@@ -1,0 +1,29 @@
+{
+  "name": "user-manager-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smikhotur/user-manager-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smikhotur/user-manager-backend/issues"
+  },
+  "homepage": "https://github.com/Smikhotur/user-manager-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mango": "^0.0.4",
+    "mongoose": "^6.3.6",
+    "passport": "^0.6.0"
+  }
+}
